@@ -25,3 +25,20 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.banner {
+  background-image: url(../public/bannerImage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 0;
+  width: 100%;
+  padding-top: 60%;
+}
+
+.logo-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
