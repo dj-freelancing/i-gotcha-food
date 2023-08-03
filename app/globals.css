@@ -26,6 +26,10 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+section {
+  height: 100vh; /* Set the height of the section to the viewport height */
+}
+
 .banner {
   background-image: url(../public/bannerImage.png);
   background-size: cover;
@@ -34,6 +38,7 @@ body {
   height: 0;
   width: 100%;
   padding-top: 60%;
+  z-index: 100;
 }
 
 .logo-container {
